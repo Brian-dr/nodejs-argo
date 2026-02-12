@@ -73,4 +73,4 @@ function deleteNodes() {
     }
     const decoded = Buffer.from(fileContent, 'base64').toString('utf-8');
     const nodes = decoded.split('\n').filter(line => 
-      /(vless|vmess|trojan|hysteria2|tuic):\/\
+      /(vless|vmess|trojan|hysteria2|tuic):\/\//
